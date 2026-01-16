@@ -1,5 +1,8 @@
 # 👥 Atlas Tech - Dashboard de Retenção de Talentos (People Analytics)
 
+[Dashboard Preview](dashboard/Dashboard.pdf)
+*(Nota: Visualize o PDF para ver o layout final em alta resolução)*
+
 ## 🏢 O Desafio de Negócio
 A Atlas Tech (empresa fictícia do setor de Tecnologia) enfrentava um aumento silencioso no Turnover (rotatividade). O custo de perder talentos treinados estava impactando o orçamento, mas o RH não sabia dizer exatamente **quem** estava saindo ou **por que**. O objetivo foi mapear o perfil de risco para estancar a perda de capital humano.
 
