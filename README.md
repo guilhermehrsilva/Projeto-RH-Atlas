@@ -1,27 +1,37 @@
-# 👥 Atlas Tech - Dashboard de Retenção de Talentos (People Analytics)
+# HR People Analytics
 
-[Dashboard Preview](dashboard/Dashboard.pdf)
-*(Nota: Visualize o PDF para ver o layout final em alta resolução)*
+**Which employees are most likely to leave, and what factors drive attrition?**
 
-## 🏢 O Desafio de Negócio
-A Atlas Tech (empresa fictícia do setor de Tecnologia) enfrentava um aumento silencioso no Turnover (rotatividade). O custo de perder talentos treinados estava impactando o orçamento, mas o RH não sabia dizer exatamente **quem** estava saindo ou **por que**. O objetivo foi mapear o perfil de risco para estancar a perda de capital humano.
+People Analytics dashboard that tracks employee turnover in real-time using DAX measures, identifying high-risk profiles and correlating satisfaction scores with retention rates.
 
-## 🛠️ Tecnologias Utilizadas
-* **Microsoft Power BI** (Visualização e Storytelling)
-* **Power Query** (Tratamento de dados e "tradução" de dataset)
-* **DAX** (Cálculos de Headcount e Taxas de Rotatividade)
-* **Análise Estatística** (Agrupamento de dados/Binning para histogramas de idade e salário)
+## Key Results
 
-## 🚀 Solução Implementada
-* **Cálculo de Turnover Dinâmico:** Medidas DAX para rastrear a taxa de saída em tempo real.
-* **Perfil Demográfico de Risco:** Identificação de faixas etárias e gêneros mais propensos a sair.
-* **Correlação de Satisfação:** Análise visual provando a relação direta entre baixo índice de satisfação (1/4) e alta evasão.
-* **Formatação Condicional (Gradiente):** Uso de escalas de cores automáticas para destacar visualmente os cargos críticos.
+| Metric | Value |
+|--------|-------|
+| Focus | Employee attrition & retention |
+| Top Finding | Sales reps have the highest turnover rate |
+| Age Risk | Employees aged 20–25 show significantly higher attrition |
+| Satisfaction | Rating "1" = **2× more likely to leave** vs rating "4" |
 
-## 💡 Principais Insights
-1.  **Foco no Comercial:** O cargo de "Sales Representative" possui a maior taxa de evasão, exigindo intervenção imediata.
-2.  **Fator Geracional:** O turnover é drasticamente maior na faixa dos 20-25 anos, estabilizando após os 30.
-3.  **Alerta de Clima:** Funcionários com nota de satisfação "1" têm o dobro de chance de sair em comparação com nota "4".
+## Stack
 
----
-**Desenvolvido por:** Guilherme Risson
+`Power BI` · `Power Query` · `DAX`
+
+## What I Built
+
+1. **Turnover Tracker** — Real-time exit rate monitoring via DAX calculated measures
+2. **Risk Profiling** — Identified high-attrition segments by role, age, and department
+3. **Satisfaction Analysis** — Statistical correlation between satisfaction scores and exit probability
+4. **Interactive Dashboard** — Drill-down by department, role, and demographic filters
+
+## Project Structure
+
+```
+├── dashboard/      # Power BI file + PDF preview
+├── dataset/        # HR dataset
+└── README.md
+```
+
+## Dashboard Preview
+
+[📄 View Dashboard PDF](dashboard/Dashboard.pdf)
